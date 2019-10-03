@@ -1,0 +1,57 @@
+exports[`test component matches the snapshot 1`] = `
+<form
+  className={undefined}
+  onSubmit={[Function]}>
+  <input
+    autoFocus="true"
+    className="form-control"
+    id="name"
+    onChange={[Function]}
+    placeholder="Type the name of a friend to be added"
+    type="text"
+    value="" />
+  <div
+    className={undefined}>
+    <label
+      className="radio-inline">
+      <input
+        checked={false}
+        className={undefined}
+        id="maleRadioButton"
+        name="gender"
+        onChange={[Function]}
+        type="radio"
+        value="male" />
+      Male
+    </label>
+    <label
+      className="radio-inline">
+      <input
+        checked={false}
+        className={undefined}
+        id="femaleRadioButton"
+        name="gender"
+        onChange={[Function]}
+        type="radio"
+        value="female" />
+      Female
+    </label>
+    <label
+      className="radio-inline">
+      <input
+        checked={false}
+        className={undefined}
+        id="otherRadioButton"
+        name="gender"
+        onChange={[Function]}
+        type="radio"
+        value="other" />
+      Other
+    </label>
+  </div>
+  <button
+    className="btn btn-primary">
+    Submit
+  </button>
+</form>
+`;

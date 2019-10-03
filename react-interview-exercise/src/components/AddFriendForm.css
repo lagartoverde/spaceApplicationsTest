@@ -1,0 +1,23 @@
+:local(.AddFriendForm) {
+  border-radius: 0;
+  border-color: #ABAAAA;
+  border-left: 0;
+  border-right: 0;
+}
+
+:local(.addFriendForm) {
+  display: flex;
+  flex-direction: column;
+}
+
+:local(.genderSelection) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+:local(.radioButton) {
+  cursor: pointer;
+}
